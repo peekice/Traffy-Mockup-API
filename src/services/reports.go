@@ -64,6 +64,8 @@ func (r *reportsService) InsertNewReport(report entities.ReportUserModel, imgFil
 		Status:       "รอรับเรื่อง",
 		SolvedBy:     nil,
 		SolvedDetail: nil,
+		AfterImg:     nil,
+		SolvedAt:     nil,
 
 		ReportStar:    nil,
 		ReportComment: nil,
